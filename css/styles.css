@@ -1,0 +1,96 @@
+
+
+:root{
+    --blue: #2196f3;
+  }
+:root{
+    --black: #212121;
+  }
+:root{
+    --grey: #757575;
+  }
+:root{
+    --white: #FFFFFF;
+  }
+:root{
+    --grey2: #2F303A;
+}
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+ a {
+    color: var(--black);
+    cursor: pointer;
+ }
+
+.logo a {
+    color: var(--blue);
+    font-family: "Relaway", sans-serif;
+    font-size: 26px;
+    line-height: 100%;
+    font-weight: 700;
+  }
+
+.contact a {
+    color: var(--grey);
+     font-size: 14px;
+     line-height: 100%;
+}
+
+.contact a:hover
+{
+    color: var(--blue);
+     
+}
+
+.nav a { 
+    color: var(--black);
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.nav a:hover
+{
+    color: var(--blue); 
+}
+
+button:hover {
+color: var(--white);
+background-color: var(--blue);
+border: 1px var(--blue);
+cursor: pointer;
+}
+
+h3{
+    font-size: 18px;
+    line-height: 171%;
+    font-weight: 700;
+}
+
+p{
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+footer {
+    background-color: var(--grey2);
+    width: 1600px;
+    height: 252px;
+}
+
+.address a {
+    color: var(--white);
+    width: 1600px;
+    height: 252px;
+}
+
+.address a:hover
+{
+    color: var(--blue); 
+}
