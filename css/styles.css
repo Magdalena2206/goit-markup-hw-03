@@ -1,42 +1,78 @@
 
 
 
-.page-header{
+.container{
   width: 1200px;
   display: flex;
   flex-direction: row;
-  border: #ECECEC 1px solid;
- 
+  flex-wrap: nowrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
 .logo{
+  
   padding-left: 215px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
 .nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: center;
 padding-left: 93px;
-padding-right: 364;
-width: 261px;
+padding-top: 32px;
+  padding-bottom: 32px;
+ 
+
 }
 .nav div{
- flex-direction: row;
+ 
+  padding-right: 46px;
 }
 .contact{
-  width: 295px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: flex-start;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 364px;
- 
-  
+  padding-left: 364px; 
 }
-.contact div{
-  
-}
-.menu{
-  width: 1200px;
-  margin: auto;
-  justify-content: center;
 
+  .contact div{
+    display: inline-flex;
+   flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 50px;
+  }
+
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  margin-left: 510px;
+
+}
+.menu div{
+  padding-right: 8px;
+
+}
+.menu button{
+  border: none;
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-bottom: 6px;
+  padding-right: 22px;
 }
 .projects{
   width: 1200px;
@@ -46,6 +82,8 @@ width: 261px;
   justify-items: center;
   align-items: center;
   justify-content: flex-start;
+  margin-right: 215px;
+  margin-bottom: 64px;
 }
 
   .projects h3{
@@ -56,7 +94,7 @@ width: 261px;
   }
 
 .projects p{
-  padding-bottom 20px;;
+  padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -119,12 +157,14 @@ body {
     font-size: 26px;
     line-height: 100%;
     font-weight: 700;
+    text-decoration: none;
   }
 
 .contact a {
     color: var(--grey);
      font-size: 14px;
      line-height: 100%;
+     text-decoration: none;
 }
 
 .contact a:hover
@@ -137,6 +177,7 @@ body {
     color: var(--black);
   font-size: 14px;
   line-height: 100%;
+  text-decoration: none;
 }
 
 .nav a:hover
