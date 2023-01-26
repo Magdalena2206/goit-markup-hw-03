@@ -1,5 +1,91 @@
 
 
+
+.page-header{
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  border: #ECECEC 1px solid;
+ 
+}
+.logo{
+  padding-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.nav{
+padding-left: 93px;
+padding-right: 364;
+width: 261px;
+}
+.nav div{
+ flex-direction: row;
+}
+.contact{
+  width: 295px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 364px;
+ 
+  
+}
+.contact div{
+  
+}
+.menu{
+  width: 1200px;
+  margin: auto;
+  justify-content: center;
+
+}
+.projects{
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+  .projects h3{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+  }
+
+.projects p{
+  padding-bottom 20px;;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.one{
+  flex-direction: row;
+  margin-left: 215px;
+  margin-right: 30px;
+}
+.one div{
+  border: #EEEEEE 1px solid;
+  margin-bottom: 30px;
+}
+.two {
+  flex-direction: row;
+  margin-right: 30px;
+}
+.two div{
+  border: #EEEEEE 1px solid;
+  margin-bottom: 30px;
+}
+.three {
+  flex-direction: row;
+  margin-right: 215px;
+}
+.three div{
+  border: #EEEEEE 1px solid;
+  margin-bottom: 30px;
+}
 :root{
     --blue: #2196f3;
   }
@@ -94,3 +180,4 @@ footer {
 {
     color: var(--blue); 
 }
+
