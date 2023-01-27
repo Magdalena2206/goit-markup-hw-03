@@ -81,7 +81,8 @@ margin-top: 32px;
   justify-items: center;
   align-items: center;
   justify-content: center;
-  margin-left: 215px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 64px;
 }
 
@@ -123,25 +124,11 @@ margin-top: 32px;
   margin-bottom: 30px;
 }
 .fourth{
-  width: 1200px;
-  
-  display:flex;
-  flex-direction: column;
-  padding-bottom: 60px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;  
-}
-.logo-footer a{
-
-margin-top: 60px;
-}
-.address div{
-
-  display:flex;
-  flex-direction: column;
-  height: 21px;
-    
+width: 1200px;
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -184,7 +171,7 @@ body {
     font-weight: 700;
     text-decoration: none;
   }
-.logo-footer a{
+.logo-footer a {
   color: var(--blue);
     font-family: "Relaway", sans-serif;
     font-size: 26px;
@@ -239,18 +226,25 @@ p{
 
 footer {
     background-color: var(--grey2);
-    width: 1600px;
+    width: 1200px;
     height: 252px;
+    background-size: 1200px;
 }
-
+.fourth{
+  width: 1200px;
+    height: 252px;
+    background-size: 1200px;
+}
 .address a {
     color: var(--white);
-    width: 1600px;
+    width: 1200px;
     height: 252px;
+    text-decoration: none;
 }
 
 .address a:hover
 {
-    color: var(--blue); 
+    color: var(--blue);
+    text-decoration: none;
 }
 
