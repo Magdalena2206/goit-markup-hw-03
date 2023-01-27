@@ -69,7 +69,6 @@
   padding-right: 22px;
   border-radius: 10px;
 }
-
 .third{
   width: 1200px;
   display: flex;
@@ -82,6 +81,7 @@
   margin-right: auto;
   margin-bottom: 64px;
 }
+
 
 .third h3{
   padding-top: 20px;
@@ -128,21 +128,19 @@
 }
 
 .fourth{
-  width: 1200px;
+ width: 1200px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  background-size: auto;
   flex-wrap: nowrap;
-  justify-items: center;
   align-items: center;
 }
 
 .logo-footer{
   margin-top: 60px;
   margin-bottom: 20px;
-  margin-right: 1240px;
+  margin-right: 1095px;
 }
 
 .address{
@@ -157,11 +155,138 @@
 }
 
 .mail{
-  margin-right: 1240px;
+  margin-right: 1095px;
   padding-bottom: 9px;
   text-decoration: underline;
 }
 
+.main{
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.main h1{
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.main div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main button{
+ margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 41px;
+  padding-right: 41px;
+
+}
+
+.lorem{
+  width: 1200px;
+  display: flex;
+  flex-direction:row;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.lorem div{
+ padding-left: auto;
+ padding-right: auto;
+ padding-top: 94px;
+}
+
+.lorem h6{
+  padding-right: 30px;
+}
+
+.lorem a{
+  padding-top: 10px;
+} 
+
+.whatwedo{
+  width: 1200px;
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.whatwedo h2{
+  padding-left: auto;
+ padding-right: auto;
+ padding-top: 94px;
+}
+
+.photo{
+  display: flex;
+  flex-direction:row;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.photo div{
+  padding-top: 50px;
+  padding-right: 30px;
+
+}
+.ourteam{
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+  margin-top: 94px;
+  align-items: center;
+}
+
+.ourteam h2{
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 94px;
+}
+
+.employees{
+  display: flex;
+  flex-direction:row;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.employees img{
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+
+.employees h3{
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.employees p{
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 10px;
+  text-align: center;
+}
 
 :root{
   --border: #EEEEEE;
@@ -181,6 +306,7 @@
 :root{
     --grey2: #2F303A;
 }
+
 body {
   background-color: var(--white);
   color: var(--black);
@@ -193,7 +319,7 @@ a {
   cursor: pointer;
 }
 
-header {
+.header {
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -214,6 +340,7 @@ header {
   font-weight: 700;
   text-decoration: none;
 }
+
 .contact a {
   color: var(--grey);
   font-size: 14px;
@@ -232,8 +359,7 @@ header {
   text-decoration: none;
 }
 
-.nav a:hover
-{
+.nav a:hover {
   color: var(--blue); 
 }
 
@@ -257,18 +383,15 @@ p{
   font-weight: 400;
 }
 
+
 footer {
   background-color: var(--grey2);
-  width: 1600px;
   height: 252px;
-  background-size: 1200px;
 }
 
 .address a {
   color: var(--white);
-  text-decoration: none;
-    
-    
+  text-decoration: none;   
 }
 
 .address a:hover {
@@ -276,3 +399,70 @@ footer {
   text-decoration: none;
 }
 
+.main{
+  background-color: var(--grey2);
+  height: 600px;
+}
+
+.main button{
+  font-size: 16px;
+  line-height: 188%;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 4px;
+  border-color: var(--blue);
+}
+
+.main h1{
+  color: var(--white);
+  font-size: 44px;
+  line-height: 136%;
+  font-weight: 900;
+}
+
+.lorem h6{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color:var(--black);
+}
+
+.lorem a{
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+color:var(--grey);
+}
+
+.whatwedo h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  color:var(--black);
+}
+
+.ourteam{
+  background-color: #F5F4FA;
+  height: 648px;
+}
+
+.ourteam h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color:var(--black);
+}
+
+.employees h3{
+  font-size: 16px;
+  line-height: 100%;
+  color:var(--black);
+}
+
+.employees p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color:var(--grey);
+}
