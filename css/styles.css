@@ -16,6 +16,7 @@
 .logo-header{
   margin-top: 24px;
   margin-bottom: 25px;
+  
  
 }
 
@@ -63,6 +64,7 @@ margin-top: 32px;
 .second div{
   padding-right: 4px;
   padding-left: 4px;
+  border-radius: 10px;
 
 }
 .second button{
@@ -71,6 +73,7 @@ margin-top: 32px;
   padding-left: 22px;
   padding-bottom: 6px;
   padding-right: 22px;
+  border-radius: 10px;
 }
 
 .third{
@@ -102,6 +105,7 @@ margin-top: 32px;
 .one{
   flex-direction: row;
   margin-right: 30px;
+  margin-left: 215px;
 }
 .one div{
   border: #EEEEEE 1px solid;
@@ -129,22 +133,42 @@ display: flex;
 flex-direction: column;
 margin-left: auto;
 margin-right: auto;
+background-size: auto;
+flex-wrap: nowrap;
+justify-items: center;
+align-items: center;
+
 }
+
+
 .logo-footer{
   margin-top: 60px;
   margin-bottom: 20px;
+  margin-right: 1240px;
  
 }
 .address{
-  padding-left: 215px;
+  display: flex;
+  flex-direction: column;
+  
 margin-top: 20px;
   margin-bottom: 60px;
-  padding-right: 1138px;
+  margin-right: 1240px;
 }
-.adress a{
+.address div{
   display: flex;
   flex-direction: column;
   padding-bottom: 9px;
+ 
+}
+.long{
+  display: flex;
+  flex-grow: 3;
+  flex-direction: row;
+}
+.address a{
+  padding-bottom: 9px;
+
 }
 
 :root{
@@ -211,6 +235,7 @@ body {
   font-size: 14px;
   line-height: 100%;
   text-decoration: none;
+  
 }
 
 .nav a:hover
@@ -240,15 +265,11 @@ p{
 
 footer {
     background-color: var(--grey2);
-    width: 1200px;
+    width: 1600px;
     height: 252px;
-    background-size: 1200px;
+    
 }
-.fourth{
-  width: 1200px;
-    height: 252px;
-    background-size: 1200px;
-}
+
 .address a {
     color: var(--white);
     
