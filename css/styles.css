@@ -130,8 +130,22 @@ flex-direction: column;
 margin-left: auto;
 margin-right: auto;
 }
-
-
+.logo-footer{
+  margin-top: 60px;
+  margin-bottom: 20px;
+ 
+}
+.address{
+  padding-left: 215px;
+margin-top: 20px;
+  margin-bottom: 60px;
+  padding-right: 1138px;
+}
+.adress a{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9px;
+}
 
 :root{
     --blue: #2196f3;
@@ -237,8 +251,8 @@ footer {
 }
 .address a {
     color: var(--white);
-    width: 1200px;
-    height: 252px;
+    
+    
     text-decoration: none;
 }
 
