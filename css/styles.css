@@ -175,19 +175,14 @@ section{
   padding-right: 30px;
 }
 
-
-
 .whatwedo h2{
-  padding-left: auto;
- padding-right: auto;
- padding-top: 94px;
+  text-align: center;
 }
 
 .photo{
   display: flex;
   flex-direction:row;
-  margin-left: auto;
-  margin-right: auto;
+ 
 
 }
 .photo div{
