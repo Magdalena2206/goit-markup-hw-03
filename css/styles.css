@@ -155,7 +155,6 @@ section{
 
 .main h1{
   padding-top: 200px;
-  
   padding-bottom: 40px;
   
 }
@@ -165,34 +164,16 @@ section{
  padding-right: 42px;
  padding-bottom: 10;
  padding-top: 10;
-
-
- 
-  
-
 }
 
 .lorem{
-  width: 1200px;
   display: flex;
   flex-direction:row;
- 
-  
-}
-
-.lorem div{
- padding-left: auto;
- padding-right: auto;
- padding-top: 94px;
 }
 
 .lorem h6{
   padding-right: 30px;
 }
-
-.lorem a{
-  padding-top: 10px;
-} 
 
 
 
