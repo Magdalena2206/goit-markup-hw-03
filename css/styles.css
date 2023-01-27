@@ -1,18 +1,27 @@
-.first{
+.container{
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+section{
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-items: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;  
+  justify-content: center;
+
+}
+.first{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+   
 }
 
-.logo-header{
-  margin-top: 24px;
-  margin-bottom: 25px; 
-}
 
 .nav{
   padding-left: 93px;
@@ -47,11 +56,8 @@
 .second{
   display: flex;
   flex-direction:row;
-  width: 1200px;
   margin-top: 94px;
   margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: center;
 }
 
@@ -70,15 +76,6 @@
   border-radius: 10px;
 }
 .third{
-  width: 1200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 64px;
 }
 
@@ -127,15 +124,7 @@
   margin-bottom: 30px;
 }
 
-.fourth{
- width: 1200px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: nowrap;
-  align-items: center;
-}
+
 
 .logo-footer{
   margin-top: 60px;
@@ -160,35 +149,23 @@
   text-decoration: underline;
 }
 
-.main{
-  display: flex;
-  flex-direction:column;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: nowrap;
-  align-items: center;
-}
+
 
 .main h1{
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+  padding-top: 200px;
+  
+  padding-bottom: 40px;
   text-align: center;
 }
 
-.main div{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .main button{
- margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 41px;
-  padding-right: 41px;
+ padding-left: 41px;
+ padding-right: 42px;
+ padding-bottom: 10;
+ padding-top: 10;
+ margin-left: 700px;
+ 
+  
 
 }
 
@@ -196,10 +173,8 @@
   width: 1200px;
   display: flex;
   flex-direction:row;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: nowrap;
-  align-items: center;
+ 
+  
 }
 
 .lorem div{
@@ -216,15 +191,7 @@
   padding-top: 10px;
 } 
 
-.whatwedo{
-  width: 1200px;
-  display: flex;
-  flex-direction:column;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: nowrap;
-  align-items: center;
-}
+
 
 .whatwedo h2{
   padding-left: auto;
@@ -243,15 +210,6 @@
   padding-top: 50px;
   padding-right: 30px;
 
-}
-.ourteam{
-  display: flex;
-  flex-direction:column;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: nowrap;
-  margin-top: 94px;
-  align-items: center;
 }
 
 .ourteam h2{
@@ -410,6 +368,7 @@ footer {
   font-weight: 700;
   color: var(--white);
   background-color: var(--blue);
+  background-size: 200px 50px;
   border-radius: 4px;
   border-color: var(--blue);
 }
