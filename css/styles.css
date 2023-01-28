@@ -2,6 +2,7 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto; 
+  inline-size: 100%;
 }
 section{
   padding-top: 94px;
@@ -12,13 +13,17 @@ section{
   justify-items: center;
   align-items: center;
   justify-content: center;
+  
+  
 
 }
+
 .first{
   display: flex;
   flex-direction: row;
   justify-items: center;
   align-items: center;
+  padding-left: 142px;
 }
 
 .nav{
@@ -26,11 +31,13 @@ section{
   margin-top: 32px;
   margin-bottom: 32px;
   padding-right: 318px;
+ 
 }
 
 .nav nav{
   display: flex;
   flex-direction: row;
+  
 }
 
 .nav div{
@@ -56,9 +63,12 @@ section{
   flex-direction:row;
   margin-top: 94px;
   margin-bottom: 50px;
-  justify-content: center;
+  
 }
-
+.second{
+  justify-content: center;
+  align-items: center;
+}
 .second div{
   padding-right: 4px;
   padding-left: 4px;
@@ -163,6 +173,8 @@ section{
 .lorem{
   display: flex;
   flex-direction:row;
+  
+
 }
 
 .lorem h6{
@@ -184,17 +196,20 @@ section{
 
 .ourteam h2{
   text-align: center;
+  
 }
 
 .employees{
   display: flex;
   flex-direction:row;
   text-align: center;
+  
+padding-top: 50px;
    }
 
 
 .employees img{
-  padding-top: 50px;
+  
   padding-right: 30px;
 }
 
@@ -240,6 +255,7 @@ a {
 
 .header {
   border-bottom: 1px solid #ECECEC;
+  
 }
 
 .logo-header a {
@@ -306,6 +322,9 @@ p{
 footer {
   background-color: var(--grey2);
   height: 252px;
+  padding-left: 142px;
+  padding-top: 30px;
+  
 }
 
 .address a {
@@ -354,7 +373,9 @@ font-size: 14px;
 line-height: 171%;
 color:var(--grey);
 }
-
+.whatwedo{
+  justify-content: center;
+}
 .whatwedo h2{
   font-size: 36px;
   font-weight: 700;
@@ -365,6 +386,8 @@ color:var(--grey);
 .ourteam{
   background-color: #F5F4FA;
   height: 648px;
+  inline-size: 100%;
+  
 }
 
 .ourteam h2{
