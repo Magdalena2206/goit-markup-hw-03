@@ -182,15 +182,13 @@ section{
 
 .lorem{
   
-  display: flex;
-  flex-direction:row;
-
-}
-.lorem div{
+  display:flex;
+  flex-direction: row;
   padding-left: 15px;
   padding-right: 15px;
-  
+
 }
+
   
 
 
@@ -213,8 +211,8 @@ section{
 }
 .ourteam{
   text-align: center;
-  
   justify-items: center;
+  
   
   
 }
@@ -225,22 +223,16 @@ section{
 .employees{
   display: flex;
   flex-direction:row;
- 
+  
   
  
    }
 .employees div{
 padding-left: 15px;
 padding-right: 15px;
-justify-content: center;
-text-align: center;
-  align-items: center;
-}
 
-.employees img{
-  
+
  
-  
 }
 
 
