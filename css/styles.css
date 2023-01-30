@@ -1,10 +1,13 @@
 .container{
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto; 
   inline-size: 100%;
+
 }
 section{
+  
+  
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
@@ -21,8 +24,10 @@ section{
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  padding-left: 142px;
+ 
 }
+
+  
 
 .nav{
   padding-left: 93px;
@@ -130,16 +135,20 @@ section{
 }
 
 .logo-footer{
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-right: 1095px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 60px;
+ 
 }
 
 .address{
   display: flex;
   flex-direction: column; 
-  margin-top: 20px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  justify-items: center;
+  
 }
 
 .street{
@@ -147,7 +156,7 @@ section{
 }
 
 .mail{
-  margin-right: 1095px;
+  
   padding-bottom: 9px;
   text-decoration: underline;
 }
@@ -169,37 +178,28 @@ section{
 }
 
 .lorem{
+  
   display: flex;
   flex-direction:row;
-  
- 
 
 }
 .lorem div{
   padding-left: 15px;
   padding-right: 15px;
- 
-}
-
-
- 
   
-  
-.lorem h6{
-  padding-right: 30px;
 }
+  
+
 
 .whatwedo h2{
   text-align: center;
   padding-bottom: 50px;
 }
-img{
-  max-width: 100%;
- 
-}
+
 .photo{
   display: flex;
   flex-direction:row;
+  max-width: 100%;
   
 }
 .photo div{
@@ -208,10 +208,15 @@ img{
   margin-left: 15px;
   
 }
-
-.ourteam h2{
-padding-bottom: 50px;
+.ourteam{
+  text-align: center;
   
+  justify-items: center;
+  
+  
+}
+.ourteam h2{
+
 }
 
 .employees{
@@ -275,10 +280,12 @@ a {
   cursor: pointer;
 }
 
-.header {
+.header{
   border-bottom: 1px solid #ECECEC;
   
 }
+  
+
 
 .logo-header a {
   color: var(--blue);
@@ -344,8 +351,6 @@ p{
 footer {
   background-color: var(--grey2);
   height: 252px;
-  padding-left: 142px;
-  padding-top: 30px;
   
 }
 
