@@ -180,16 +180,26 @@ section{
  padding-top: 10;
 }
 
-.lorem{
+.lorem {
   
   display:flex;
   flex-direction: row;
-  padding-left: 15px;
-  padding-right: 15px;
+  
+  margin-left: auto;
+  margin-right: auto;
 
 }
-
+.lorem div{
+  padding-left: 15px;
+  padding-right: 15px;
   
+}
+  .lorem h6{
+    padding-bottom: 10px;
+  }
+  .lorem p{
+
+  }
 
 
 .whatwedo h2{
@@ -216,14 +226,12 @@ section{
   
   
 }
-.ourteam h2{
 
-}
 
 .employees{
   display: flex;
   flex-direction:row;
-  
+  padding-top: 50px;
   
  
    }
